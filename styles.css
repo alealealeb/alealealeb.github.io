@@ -226,7 +226,11 @@ html, body{
 .introphoto img{
     object-fit: fill;
     border-radius: 20px;
+    transform: transform .3s ease;
     
+}
+.introphoto img:hover{
+        transform: scale(1.2); /* Increase the scale to make the image larger */
 }
 
 .introname{
