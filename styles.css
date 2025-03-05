@@ -159,17 +159,17 @@ html, body{
 }
 .date{
     display:flex;
-    margin-left: 50px;
-    margin-right: 30px;
+    margin-right: 40px;
     color:rgb(170, 0, 0);
     font-weight: bold;
-    width: 120px;
+    width: 100px;
 }
 .event-name{
     display:flex;
     color:rgb(170, 0, 0);
     font-weight: bold;
     align-items: center;
+    width: 250px;
 }
 .middle{
     display:flex;
@@ -179,7 +179,8 @@ html, body{
     display:flex;
     color:rgb(170, 0, 0);
     font-weight: normal;
-    width: 300px;
+    width: 200px;
+    margin-right: 30px;
 
 }
 .event-button{
@@ -289,4 +290,45 @@ position: absolute;
 }
 .row-divider{
     height: 100px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+}
+.home-box{
+    align-items: flex-start;
+    margin-left: 2%;
+    margin-right: 10px;
+}
+.home-box-photo{
+    float: left;
+    margin-right:20px;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+.home-box{
+    flex: 1;
+}
+.section-header-home{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.section-header-left{
+    margin-right:30%;
+    font-family: "Italiana";
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+.section-header-middle{
+    flex-grow:2;
+}
+.section-header-right{
+    margin-left:30%;
+    font-family: "Italiana";
+    color: #333;
+    text-align: center;
+    font-size: 2em;
 }
