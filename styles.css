@@ -320,8 +320,7 @@ position: absolute;
     justify-content: center;
     margin-bottom: 15px;
 }
-.section-header-left{
-    margin-right:30%;
+.section-header-right{
     font-family: "Italiana";
     color: #333;
     text-align: center;
