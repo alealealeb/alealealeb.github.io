@@ -326,9 +326,13 @@ position: absolute;
     color: #333;
     text-align: center;
     font-size: 2em;
+      border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
 .section-header-middle{
     flex-grow:2;
+      border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
 .section-header-right{
     margin-left:30%;
@@ -336,4 +340,6 @@ position: absolute;
     color: #333;
     text-align: center;
     font-size: 2em;
+      border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
 }
