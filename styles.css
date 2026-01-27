@@ -141,9 +141,13 @@ html, body{
 .row{
     display:flex;
     flex-direction: row;
-    height: 150px;
+    padding: 20px;
     align-items: center;
-    justify-content: baseline;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #eee;
+}
+.row:hover {
+    background-color: #ffe8e8;
 }
 .btn{
     display: flex;
@@ -299,10 +303,12 @@ position: absolute;
 .home{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
 }
 .home-box{
-    align-items: flex-start;
-    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 30px;
 }
 .home-box-photo{
@@ -311,9 +317,6 @@ position: absolute;
     width: 400px;
     height: 350px;
     border-radius: 10px;
-}
-.home-box{
-    flex: 1;
 }
 .section-header-home{
     display: flex;
@@ -325,4 +328,16 @@ position: absolute;
     color: #333;
     text-align: center;
     font-size: 2em;
+}
+/* 1. The starting state: hidden and moved down 50px */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out; /* Smoothness of the slide */
+}
+
+/* 2. The active state: visible and in original position */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
