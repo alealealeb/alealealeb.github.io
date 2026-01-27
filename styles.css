@@ -302,7 +302,7 @@ position: absolute;
 }
 .home-box{
     align-items: flex-start;
-    width: 100%;
+    width: 95%
     margin-bottom: 30px;
 }
 .home-box-photo{
@@ -322,16 +322,6 @@ position: absolute;
 }
 .section-header-left{
     margin-right:30%;
-    font-family: "Italiana";
-    color: #333;
-    text-align: center;
-    font-size: 2em;
-}
-.section-header-middle{
-    flex-grow:2;
-}
-.section-header-right{
-    margin-left:30%;
     font-family: "Italiana";
     color: #333;
     text-align: center;
