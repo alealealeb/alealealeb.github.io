@@ -68,18 +68,12 @@ html, body{
 }
 .first a{
     transition: background-color .3s ease;
-          border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
 }
 .second a{
     transition: background-color .3s ease;
-          border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
 }
 .third a{
     transition: background-color .3s ease;
-          border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
 }
 .first a:hover{
     background-color: rgba(0,255,0,.5);
@@ -304,12 +298,12 @@ position: absolute;
 }
 .home{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .home-box{
     align-items: flex-start;
-    margin-left: 2%;
-    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 .home-box-photo{
     float: left;
