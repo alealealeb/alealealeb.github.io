@@ -6,6 +6,11 @@
     color: #777
 }
 
+header {
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+
 html, body{
     margin: 0;
     padding: 0;
