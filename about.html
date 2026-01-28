@@ -131,5 +131,15 @@
     </div>
     </div>
 </footer>
+<script>
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.main-header');
+    let scrollValue = window.pageYOffset;
+
+    // 0.5 means the background moves at half the speed of the scroll.
+    // Increase to 0.8 for faster, decrease to 0.2 for "further away" look.
+    header.style.backgroundPositionY = (scrollValue * 0.5) + 'px';
+});
+</script>
 </body>
 </html>

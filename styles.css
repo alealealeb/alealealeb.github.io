@@ -68,25 +68,33 @@ html, body{
 }
 .first a{
     transition: background-color .3s ease;
+    transition: transform .3s ease;
 }
 .second a{
     transition: background-color .3s ease;
+    transition: transform .3s ease;
 }
 .third a{
     transition: background-color .3s ease;
+    transition: transform .3s ease;
 }
 .first a:hover{
     background-color: rgba(0,255,0,.5);
+    transform: scale(1.1);
 }
 .second a:hover{
     background-color: rgba(255,255,255,.5);
+    transform: scale(1.1);
 }
 .third a:hover{
     background-color: rgba(255,0,0,.5);;
+    transform: scale(1.1);
 }
 .main-header{
+    position: relative;
+    overflow:hidden;
     background-image: url(Images/italy-skyline-illustration-png-2385.png);
-    background-size: 600px;
+    background-size: 700px;
     background-color:#777;
     background-blend-mode: multiply;
 }
@@ -322,6 +330,7 @@ position: absolute;
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    padding-top: 20px;
 }
 .section-header-right{
     font-family: "Italiana";
@@ -332,12 +341,12 @@ position: absolute;
 /* 1. The starting state: hidden and moved down 50px */
 .reveal {
   opacity: 0;
-  transform: translateY(50px);
-  transition: all 0.8s ease-out; /* Smoothness of the slide */
+  transform: translateX(50px);
+  transition: all 1.5s ease-out; /* Smoothness of the slide */
 }
 
 /* 2. The active state: visible and in original position */
 .reveal.active {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
 }
