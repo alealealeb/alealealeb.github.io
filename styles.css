@@ -34,6 +34,7 @@ html, body{
     text-decoration: none;
 }
 .main-nav{
+    padding-top: 10px;
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
@@ -44,6 +45,7 @@ html, body{
     padding: 0
 }
 .main-name{
+    padding-top: 30px;
     text-align: center;
     margin: 0;
     font-size: 5em;
@@ -80,22 +82,22 @@ html, body{
 }
 .first a:hover{
     background-color: rgba(0,255,0,.5);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .second a:hover{
     background-color: rgba(255,255,255,.5);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .third a:hover{
     background-color: rgba(255,0,0,.5);;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .main-header{
     position: relative;
     overflow:hidden;
     background-image: url(Images/italy-skyline-illustration-png-2385.png);
-    background-size: 700px;
-    background-color:#777;
+    background-size: 900px;
+    background-color:#5a5a5a;
     background-blend-mode: multiply;
 }
 .content-section{
